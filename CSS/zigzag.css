@@ -1,0 +1,13 @@
+/*For the zigzag border on the SECTION1 and SECTION2 tables*/
+
+.triangle-right {
+	width: 0;
+	height: 32;
+	border-top: 15px solid transparent;
+	border-left: 15px solid white;
+	border-bottom: 15px solid transparent;
+}
+
+.grey {
+    background-color: lightgrey;
+}
