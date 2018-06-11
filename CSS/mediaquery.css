@@ -1,0 +1,40 @@
+/* Media Queries */
+
+/* 
+  ##Device = Large Screen
+  ##Screen = 1080px
+*/
+
+@media screen and (min-width: 1080px) and (max-width: 1920px) {
+ /*Default setting*/
+}
+/* 
+  ##Device = Tablets, Ipads (portrait and landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .leftdiv{
+        width: 100%;
+        overflow: visible;
+        float:none;
+    } 
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait and landscape)
+  ##Screen = B/w 320px to 640px including Iphone screens
+*/
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .leftdiv{
+        width: 100%;
+        float:none;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 640px) {
+  .leftdiv{
+        width: 100%;
+        float:none;
+    }
+}
